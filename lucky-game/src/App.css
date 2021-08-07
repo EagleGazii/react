@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+  margin: 20px auto;
+  border-radius: 10px;
+  
+}
+
+
