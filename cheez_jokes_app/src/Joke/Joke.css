@@ -1,0 +1,78 @@
+.Joke{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 1px solid rgb(207, 200, 200);
+    align-items: center;
+}
+.Joke-rating{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.Joke-btn{
+    border:none;
+    margin: 0px 5px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background-color: white;
+    
+}
+.Joke-btn:hover{
+    
+    animation: button-transition 800ms infinite;
+}
+
+@keyframes button-transition{
+    0%{
+        font-size: 80%;
+    }
+    25%{
+        font-size: 85%;
+    }
+    50%{
+        font-size: 90%;
+    }
+    75%{
+        font-size: 95%;
+    }
+    100%{
+        font-size: 100%;
+    }
+}
+.Joke-rating-content{
+    display:flex;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border:2px solid black;
+
+}
+.Joke-content{
+    flex:10;
+}
+.Joke-emoji{
+    flex:1;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    
+}
+
+
+.Joke-emoji i{
+
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 50%;
+    border:1px solid yellow;
+    
+    
+}
