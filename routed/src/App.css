@@ -1,0 +1,6 @@
+nav a {
+  color: black;
+}
+.active-link {
+  color: rgba(180, 152, 152, 0.452);
+}
