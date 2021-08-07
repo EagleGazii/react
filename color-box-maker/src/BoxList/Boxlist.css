@@ -1,0 +1,14 @@
+.BoxList{
+    margin: 20px;
+}
+
+.BoxList-item{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.BoxList-items{
+    display: flex;
+    flex-wrap: wrap;
+}

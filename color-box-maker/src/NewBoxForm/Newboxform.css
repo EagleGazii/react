@@ -1,0 +1,20 @@
+.AddBox{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.AddBox-label{
+    min-width: 40%;
+    padding: 10px;
+}
+.AddBox-input{
+    min-width: 50%;
+    
+}
+.AddBox-button{
+    border:none;
+    padding: 10px;
+    margin: 10px;
+}
