@@ -1,0 +1,7 @@
+.Shape{
+    display: flex;
+    flex: 1;
+    min-width: 19vw;
+    height: 30vh;
+    background-color: blue;
+}
