@@ -1,0 +1,55 @@
+var WORDS = [
+    "wallet",
+    "sweets",
+    "glasses",
+    "bag",
+    "gaps",
+    "rich",
+    "poor",
+    "bicycle",
+    "silver",
+    "comfortable",
+    "cousins",
+    "aunt",
+    "niece",
+    "uncle",
+    "nephew",
+    "son",
+    "daughter",
+    "husband",
+    "wife",
+    "clever",
+    "funny",
+    "happy",
+    "understand",
+    "beautiful",
+    "friendly",
+    "important",
+    "holiday",
+    "shoe",
+    "coat",
+    "favourite",
+    "lipstick",
+    "driving",
+    "licence",
+    "toothbrush",
+    "mirror",
+    "lighter",
+    "comb",
+    "painkillers",
+    "sun",
+    "screen",
+    "toothpaste",
+    "famous",
+    "divorced",
+    "married",
+    "boyfriend",
+    "girlfriend"
+
+]
+
+function randomWord() {
+    let index = Math.floor(Math.random() * WORDS.length);
+    return WORDS[index];
+}
+export { randomWord };

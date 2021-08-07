@@ -1,0 +1,39 @@
+.Hangman{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Hangman-image{
+    width: 250px;
+    margin: 0px auto;
+}
+.Hangman-btns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: 0px auto;   
+}
+
+.Hangman-btns button{
+    margin: 5px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    background-color: coral;
+    /* box-shadow: 5px 5px 10px -5px black; */
+    transition: ease box-shadow 500ms;
+}
+.Hangman-btns p{
+    text-align: center;
+    flex-direction: column;
+    flex: 1;
+}
+/* .Hangman-btns button:hover{
+    box-shadow: 0px 0px 0px 0px ;
+} */
+
+.Hangman-word{
+    margin: 10px;
+}
