@@ -1,0 +1,9 @@
+.Cell{
+    padding: 40px;
+    margin: 10px;
+    background-color: rgb(125, 125, 235);
+}
+
+.Cell-lit{
+    background-color: rgb(49, 49, 230);
+}
