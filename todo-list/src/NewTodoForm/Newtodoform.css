@@ -1,0 +1,67 @@
+.TodoForm{
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.TodoForm-label{
+    margin:10px;
+    min-width: 40%;
+}
+.TodoForm-input{
+
+    min-width: 52%;
+    padding:5px;
+}
+.TodoForm-button{
+    border: none;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    background-color: yellowgreen;
+    border-radius: 5px;
+
+}
+.TodoForm-button:hover{
+    background-color: rgb(67, 100, 0);
+    color: white;
+}
+.red{
+    color: red;
+}
+.orange{
+    color:orange;
+}
+.green{
+    color:green;
+}
+input[type="radio"]{
+    position: relative;
+    top: 2px;
+}
+
+@media screen and (max-width:900px) {
+    .TodoForm{
+        width: 80%;
+    }
+    .TodoForm-label{
+        min-width: none;
+    }
+    .TodoForm-input{
+        min-width: none;
+    }
+  }
+  
+@media screen and (max-width:800px) {
+    .TodoForm{
+        width: 90%;
+    }
+    .TodoForm-label{
+        min-width: none;
+    }
+    .TodoForm-input{
+        min-width: none;
+    }
+  }

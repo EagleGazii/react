@@ -1,0 +1,60 @@
+.Todo-red{
+    border:1px solid red;
+    box-shadow: 10px 5px 10px -5px rgba(255,0,0,0.5);
+}
+.Todo-green{
+    border:1px solid green;
+    box-shadow: 10px 5px 10px -5px rgba(7, 138, 2, 0.5);
+}
+.Todo-orange{
+    border:1px solid orange;
+    box-shadow: 10px 5px 10px -5px rgba(255, 165, 3, 0.5);
+}
+
+
+.Todo{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.Todo-title{
+    text-align: center;
+    margin: 10px 0px;
+    min-height: 50px;
+    text-decoration: underline;
+    
+}
+.Todo-content{
+    text-align: justify;
+    min-height: 148px;
+} 
+.Todo-endDate{
+    min-height: 50px;
+}
+.Todo-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Todo-buttons button{
+    border:none;
+    width:100px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    
+}
+
+.Todo-buttons button:hover{
+    background-color: grey;
+    color: white;
+}
+
+

@@ -1,0 +1,9 @@
+.App {
+  text-align: left;
+}
+body, html{
+  font-family: 'Courier New', Courier, monospace;
+}
+h3{
+  margin-left: 15px;
+}

@@ -1,0 +1,14 @@
+.TodoList{
+    display: flex;
+    flex-direction: column;
+}
+
+.TodoList-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.TodoList-form{
+    margin:60px 10px;
+}
