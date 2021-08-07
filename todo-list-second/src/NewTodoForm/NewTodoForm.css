@@ -1,0 +1,18 @@
+.NewTodoForm input,button{
+    border:none;
+    border-radius: 2px;
+    padding:8px;
+
+}
+
+.NewTodoForm input{
+    margin: 2px;
+}
+
+.NewTodoForm button{
+    cursor: pointer;
+}
+.NewTodoForm button:hover{
+    background-color: brown;
+    color: white;
+}
