@@ -1,4 +1,4 @@
-.Palette {
+/* .Palette {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,6 +7,7 @@
 .Palette-colors {
   height: 90%;
 }
+ */
 .slider {
   width: 350px;
   margin: 0px 10px;

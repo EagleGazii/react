@@ -1,11 +1,9 @@
-import Palette from "./Palette/Palette";
-import seedColors from "./seedColors";
-import { generatePalette } from "./colorHelpers";
+import Router from "./Router";
 
 function App() {
   return (
     <div className="App">
-      <Palette palette={generatePalette(seedColors[0])} />
+      <Router />
     </div>
   );
 }
